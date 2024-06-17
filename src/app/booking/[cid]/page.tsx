@@ -18,7 +18,7 @@ import Loading from "@/components/Loading";
 
 function BookingPage({ params }: { params: { cid: string } }) {
   const [loading, setLoading] = useState<boolean>(true);
-  const [campground, setCampground] = useState<CampgroundItem>({
+  const [campground, setCampground] = useState<any>({
     _id: "",
     name: "",
     address: "",
