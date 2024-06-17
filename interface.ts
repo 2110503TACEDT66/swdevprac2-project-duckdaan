@@ -5,7 +5,8 @@ export interface CampgroundItem {
   tel: string,
   price: Number,
   rating: Number,
-  picture: string
+  picture: string,
+  bookings: BookingItem[]
 }
 
 export interface CampgroundJson {

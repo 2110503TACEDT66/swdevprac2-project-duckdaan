@@ -19,4 +19,5 @@ export const dbConnect = async () => {
     } catch(error) {
         console.log(error)
     }
+
 }
